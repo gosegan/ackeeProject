@@ -1,0 +1,179 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  padding: 0;
+  color: #fff;
+  background: peachpuff;
+  letter-spacing: 0.5px;
+  font-weight: 400;
+  margin: 0;
+  font-size: 18px;
+}
+
+div,
+p,
+form,
+input,
+a,
+span,
+button {
+  box-sizing: border-box;
+}
+
+figure {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+ul,
+li {
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  margin: 0;
+}
+
+.h1 {
+  font-size: 28px;
+  line-height: 36px;
+}
+.h2 {
+  font-size: 24px;
+  line-height: 30px;
+}
+.h3 {
+  font-size: 18px;
+  line-height: 23px;
+}
+.h4 {
+  font-size: 15px;
+  line-height: 19px;
+}
+.h5 {
+  font-size: 14px;
+  line-height: 18px;
+}
+
+a,
+a:hover,
+a:active {
+  text-decoration: none;
+}
+
+a,
+button,
+input {
+  transition: all 0.5s ease;
+}
+
+input,
+input:hover,
+input:focus,
+input:active,
+button,
+button:hover,
+button:focus,
+button:active {
+  outline: none;
+}
+
+.btn {
+  width: 200px;
+  height: 50px;
+  margin: 0 auto;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background: #f39100;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 20px;
+  border: 2px solid transparent;
+}
+
+.btn:hover {
+  background: transparent;
+  border: 2px solid #f39100;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.link-hover {
+  display: inline-block;
+  vertical-align: middle;
+  color: #fff;
+  padding: 10px 0;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  overflow: hidden;
+}
+.link-hover:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 100%;
+  bottom: 0;
+  background: #fff;
+  height: 2px;
+  -webkit-transition-property: right;
+  transition-property: right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.link-hover:hover:before,
+.link-hover:focus:before,
+.link-hover:active:before {
+  right: 0;
+}
+
+.item {
+  background-color: cadetblue;
+  border: 1px solid #000;
+  border-radius: 20px;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
