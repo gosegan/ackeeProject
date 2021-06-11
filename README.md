@@ -1,10 +1,10 @@
-# Getting Started with Create React App
+# In this project I have done:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 1. CSS
 
-## Available Scripts
-
-In the project directory, you can run:
+- Module classes (Head.jsx, Head.module.css)
+- Preprocessor SCSS (App.scss)
+- Styled components in Footer (<Footer>*content*</Footer>)
 
 ### `npm start`
 
