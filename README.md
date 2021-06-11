@@ -6,13 +6,13 @@
 - Preprocessor SCSS (App.scss)
 - Styled components in Footer (<Footer>*content*</Footer>)
 
-### `npm start`
+### 2. Working with API, using methods:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- GET - to get the info about recipe:
+  i. we are getting info on home page
+  ii. we are getting info on single recipe
+- POST (https://my-json-server.typicode.com/AckeeCZ/web-task-cookbook-fake-api/recipes) - to rate your dish by clicking on star and then submiting it (look to the console)
+- POST (https://my-json-server.typicode.com/AckeeCZ/web-task-cookbook-fake-api/recipe-details) - to add your own new recipe (look to the console)
 
 ### `npm test`
 
