@@ -21,4 +21,4 @@
 ### 5. Routing - 3 pages (Home, AddRecipe page and Signel recipe page)
 
 ### 6. POST (https://my-json-server.typicode.com/AckeeCZ/web-task-cookbook-fake-api/recipe-details):
-1. Adding form, where you can add unlimited quantity of ingredients
+- Adding form, where you can add unlimited quantity of ingredients
